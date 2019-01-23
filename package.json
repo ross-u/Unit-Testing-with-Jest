@@ -1,0 +1,22 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "Unit testing - Senior Part Presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --config ./jest-config.js"
+  },
+  "author": "Uros Cirkovic",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.5",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.4.1"
+  }
+}
